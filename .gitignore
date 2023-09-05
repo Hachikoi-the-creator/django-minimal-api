@@ -1,0 +1,63 @@
+# Python Virtual Environment
+venv/
+.env/
+
+# Django Database
+db.sqlite3
+
+# IDE/Editor Files
+.idea/
+.vscode/
+.pyc
+.pyo
+.pyd
+.DS_Store
+Lib/
+Scripts/
+
+# Logs and Debug Files
+*.log
+logs/
+
+# Static and Media Files (if not using a separate storage service)
+staticfiles/
+media/
+
+# Secrets and Configuration
+settings.py
+local_settings.py
+.env
+
+# Compiled Python Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Dependency and Lock Files
+requirements.txt
+Pipfile.lock
+Pipfile
+
+# IDE/Editor Configuration Files (specific to your choice of IDE/editor)
+.editorconfig
+.pylintrc
+.flake8
+.vscode/settings.json
+
+# Compiled Frontend Assets (e.g., Node.js)
+node_modules/
+dist/
+
+# Backup Files
+*~
+*.swp
+
+# Other Temporary Files
+.tmp/
+.cache/
+
+# Custom Logs and Data Directories (if applicable)
+logs/
+data/
+
+
